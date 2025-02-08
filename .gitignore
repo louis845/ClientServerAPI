@@ -1,0 +1,6 @@
+ServerAPI/build/
+ClientAPI/build/
+ClientWebAPI/node_modules/
+ClientWebAPI/dist/
+*.egg-info/
+__pycache__/

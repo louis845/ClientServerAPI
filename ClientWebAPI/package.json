@@ -1,0 +1,26 @@
+{
+  "name": "clientwebapi",
+  "version": "0.1.1",
+  "description": "A client web API to work with the server web API to establish connections, login sessions and send data.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "buildToPackage": "npm pack",
+    "test": "node dist/testing.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "package.json"
+  ],
+  "author": "Louis, Chau Yu Hei",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
